@@ -1,1 +1,14 @@
-{{CODIGO INICIAL}}
+def celsius_para_fahrenheit(celsius):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(celsius_para_fahrenheit(20.0))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert celsius_para_fahrenheit(20.0) == (68.0, "Ameno")
+assert celsius_para_fahrenheit(-500.0) == "Temperatura não realista"
+assert celsius_para_fahrenheit(10.0) == (50.0, "Frio")
+assert celsius_para_fahrenheit(85.0) == (185.0, "Quente")
+
+print("Seu código passou pelos testes, clique em Check para avançar!")

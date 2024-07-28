@@ -1,22 +1,30 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    <strong>Prática:</strong> Reforce o conhecimento adquirido. Aplique as técnicas aprendidas e repita os exercícios até se sentir confiante.
 </p>
 <h4>Enunciado</h4>
 
 <p>
-    {{ENUNCIADO}}
+    Edmundo deseja uma função que, além de converter temperaturas de Celsius para Fahrenheit, classifique essas temperaturas seguindo critérios específicos: "Quente", "Ameno" e "Frio". Temperaturas não realistas devem ser identificadas.
+
+Quente: Temperaturas iguais ou superiores a 80°F.
+
+Ameno: Temperaturas entre 50°F e 80°F.
+
+Frio: Temperaturas iguais ou abaixo de 50°F.
+
+Temperatura não realista: Temperaturas abaixo de -459.67°F, o zero absoluto em Fahrenheit.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Um número float representando a temperatura em Celsius.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> A temperatura em Fahrenheit seguida pela categoria ou um apenasviso se a temperatura for considerada não realista.
 </p>
 
 
@@ -32,11 +40,12 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    celsius_para_fahrenheit(20.0) >> (68.0,  "Ameno")
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Operações Aritméticas Básicas</li>
+<li>Lógica de Condições e Decisões</li>
 </ul>
