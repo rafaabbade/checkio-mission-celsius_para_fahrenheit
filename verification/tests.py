@@ -13,7 +13,7 @@ TESTS = {
         
     {
         "input": [20.0],
-        "answer": (68.0, "Ameno")
+        "answer": [68.0, "Ameno"]
     },
     {
         "input": [-500.0],
@@ -21,11 +21,11 @@ TESTS = {
     },
     {
         "input": [10.0],
-        "answer": (50.0, "Frio")
+        "answer": [50.0, "Frio"]
     },
     {
         "input": [85.0],
-        "answer": (185.0, "Quente")
+        "answer": [185.0, "Quente"]
     }
 
     ]
